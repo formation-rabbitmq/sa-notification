@@ -1,0 +1,10 @@
+
+LISTES DES ARGUMENTS DISPONIBLES POUR L'ÉCOUTE :
+
+-u [USERNAME] : Nom d'utilisateur (Non requis - par défaut 'guest')
+-p [PASSWORD] : Mot de passe (Non requis - par défaut 'guest')
+-rp [RABBITMQ_PORT] : Port du cluster rabbitmq  (Non requis - par défaut 5672)
+-rh [RABBITMQ_HOST] : Host du cluster rabbitmq (Requis)
+-f [QUEUE_NOT_DURABLE] : Si définie, implique que la queue n'est pas 'durable'
+-q [QUEUE_IS_QUORUM] : Si définie, implique que la queue est de type 'quorum'
+-n [QUEUE_NAME] : Nom de la queue (Requis)
