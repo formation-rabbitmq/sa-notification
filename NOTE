@@ -1,4 +1,4 @@
 
 - docker build -t sanotification .
 
-- docker run -it --network [DOCKER_NETWORK] sanotification sh -c "python main.py"
+- docker run -it --network [DOCKER_NETWORK] sanotification sh -c "python main.py [ARGS]"
